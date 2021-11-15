@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2020 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+<resources>
+    <!--
+      The similar strings app_name is added in the Application/template directory, but depending
+      on the template directory makes it hard for the sample buildable with Android.mk.
+      Thus defining the application_name with different name from the template.
+    -->
+    <string name="app_name">Fechadura Eletrônica</string>
+    <string name="cancel">Cancelar</string>
+    <string name="error_template">Erro: </string>
+    <string name="bio_input_title">Autenticação por impressão digital</string>
+    <string name="wrapping_key_name">fechadura-wrapping-key</string>
+    <string name="wrapped_key_name">wrappedDecryptionKey</string>
+    <string name="device_unsupported_msg">Dispositivo não suportado</string>
+    <string name="password_prompt_title">Senha para desbloquear a chave da fechadura</string>
+    <string name="ok">OK</string>
+    <string name="incorrect_password">Senha incorreta</string>
+    <string name="command_successful">Comando enviado com sucesso</string>
+    <string name="sending_command">Enviando comando…</string>
+
+    <string name="encrypted_aws_credentials"></string>
+    <string name="iot_client_endpoint"></string>
+    <string name="iot_client_aws_region"></string>
+    <string name="ios_client_qos"></string>
+    <string name="ios_client_topic"></string>
+</resources>
